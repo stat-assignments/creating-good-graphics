@@ -206,25 +206,25 @@ chart_d
 
 # Choose Your Own Adventure
 
-Claude used fake data, but we have access to the [real deal](https://data.cdc.gov/Vaccinations/Weekly-Cumulative-Estimated-Number-of-COVID-19-Vac/ewpg-rz7g/about_data), and I've downloaded a [csv](Weekly_Cumulative_Estimated_Number_of_COVID-19_Vaccinations_Administered_in_Pharmacies_and_Physician_Medical_Offices,_Adults_18_years_and_older,_by_Season_and_Age_Group,_United_States_20251021.csv) to simplify the process.
+Claude used fake data, but we have access to the [real deal](https://data.cdc.gov/Vaccinations/Weekly-Cumulative-Estimated-Number-of-COVID-19-Vac/ewpg-rz7g/about_data), and I've downloaded a [csv](Weekly_Cumulative_Estimated_20261015.csv) to simplify the process.
 
 Of course, the CDC only tracks number of vaccines, not the overall vaccination rate.
 
 1.  Augment this data with census estimates of the population size for each age group. 
 In either case, you may need to do a bit of inference/subtraction to get the counts for the age brackets used by the CDC.
-Provide reproducible code that generates a population table for 2023 and 2024 with the appropriate counts for each age bracket provided by the CDC.    
+Provide reproducible code that generates a population table for 2023 through 2025 with the appropriate counts for each age bracket provided by the CDC.    
     
     Options:
     
     -   Use the Census QuickFacts page https://www.census.gov/quickfacts/
-    -   Use the [nc-est2024-agesex.xlsx](nc-est2024-agesex.xlsx) population by age and sex file I downloaded from the [US Census](https://www.census.gov/data/tables/time-series/demo/popest/2020s-national-detail.html).
+    -   Use the [nc-est2025-agesex.xlsx](nc-est2025-agesex.xlsx) population by age and sex file I downloaded from the [US Census](https://www.census.gov/data/tables/time-series/demo/popest/2020s-national-detail.html).
 
 2.  Use the real data to generate the plot you created in 6. How does the real data change the appearance/message of the plot? Does anything get easier or more difficult?
 
 
 3.  What annotations would you want to add to your chart? You may be able to find relevant information about e.g. approval dates of vaccines at [immunize.org's Vaccine Timeline](https://www.immunize.org/vaccines/vaccine-timeline/). Add at least one annotation to your chart, but balance utility with clutter.
 
-4.  How would you modify this chart if your goal was to compare vaccination rates for each age group in 2023 and 2024?
+4.  How would you modify this chart if your goal was to compare vaccination rates for each age group in 2023, 2024, and 2025?
     Explain your answer, highlighting how your modifications would reduce the cognitive load of making the comparison of interest.
 
 5.  How would you use your statistical training to test and visually highlight any statistically significant differences?
